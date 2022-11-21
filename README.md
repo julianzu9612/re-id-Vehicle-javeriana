@@ -70,3 +70,13 @@ pipeline:
 
 ![image](https://user-images.githubusercontent.com/94332280/203133977-5ccd629b-5f06-4836-bd87-58db96a10398.png)
 
+La arquitectura propuesta por el paper base  “TBE-Net: A Three-Branch Embedding Network
+With Part-Aware Ability and Feature Complementary Learning for Vehicle Re-Identiﬁcation”, 
+está estructurada de la siguiente manera; inicia con una red pre entrenada de Backbone, de la cual
+se obtiene la entrada para las siguientes redes, la segunda parte se compone de tres ramas. La
+siguiente gráfica muestra la arquitectura planteada por el paper base. 
+
+![image](https://user-images.githubusercontent.com/94332280/203134203-d8ce586f-c9ad-4711-b38e-eeb3ad308e95.png)
+
+
+
