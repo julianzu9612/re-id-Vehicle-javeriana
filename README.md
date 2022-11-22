@@ -79,4 +79,12 @@ siguiente gráfica muestra la arquitectura planteada por el paper base.
 ![image](https://user-images.githubusercontent.com/94332280/203134203-d8ce586f-c9ad-4711-b38e-eeb3ad308e95.png)
 
 
+Este proyecto cuenta con seis notebooks, en los cuales se trabajaron diferentes partes de proyecto, como se describen a continuación.
+a.	Local Brach prep: este notebook continue la extracción de las imágenes del data lake asociándolas con las respectivas coordenadas de cada mascara, luego se realiza el proceso de  excluir la información que no hacia parte de estas y  se ajusta el tamaño al requerido por la ResNet50 de 512X512X3.
+b.	Trabajo_de_grado_fase1_cb1: este notebook contiene el  cargue del data set, la construcción de la arquitectura de la primera red de la rama complementaria y adicionalmente, se entrena la red con el data set de muestra de la fase 1 del diseño del experimento.
+c.	Trabajo_de_grado_fase1_datapreparation: en este notebook se extraen las imágenes del data lake y son ubicadas en una carpeta por vehículo para el cargue del data set de entrenamiento con la función de ImageDataGenerator.
+d.	Trabajo_de_grado_fase1_lb: este notebook contiene el  cargue del data set, la construcción de la arquitectura de red de la rama local y el  entrenamiento de  la red con el data set de muestra de la fase 1 del diseño del experimento.
+e.	Trabajo_de_grado_fase1_cb2_cb3_g: este notebook abarca el cargue del data set, la construcción de la arquitectura de las redes dos y tres de la rama complementaria y la red de la rama global y también, el entrenamiento y sintonización de cada red. Se agrupan en el mismo notebook porque son las red a las cuales se les iba a realizar el proceso de sintonización.
+f.	Trabajo_de_grado_fase2_cb1_cb2_g: en este notebook se pone en marcha la fase dos del diseño del experimento, el cual consiste en  entrenar las redes de manera independiente con el data set de datos sintéticos, para identificar el comportamiento de cada red con un mayor número de imágenes.
+
 
